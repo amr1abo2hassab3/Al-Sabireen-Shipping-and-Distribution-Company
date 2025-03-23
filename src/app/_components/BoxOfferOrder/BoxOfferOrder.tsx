@@ -3,7 +3,7 @@ import React from "react";
 
 interface PropsBoxOfferOrder {
   title: string;
-  paragraphs: string;
+  paragraphs: string[]; 
   linkText: string;
   linkHref: string;
 }
