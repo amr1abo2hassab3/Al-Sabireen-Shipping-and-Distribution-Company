@@ -10,7 +10,7 @@ interface HeaderSectionProps {
 export default function HeaderSection({
   title,
   subtitle,
-  link,
+  link = "/",
 }: HeaderSectionProps) {
   return (
     <div className="text-center my-10 px-4">
