@@ -1,0 +1,42 @@
+import Image from "next/image";
+import Link from "next/link";
+
+interface CardServProps {
+  imgSrc: string;
+  title: string;
+  description: string;
+  link: string;
+}
+
+export default function CardServ({
+  imgSrc,
+  title,
+  description,
+  link,
+}: CardServProps) {
+  return (
+    <Link
+      href={link}
+      className="rounded-md overflow-hidden transition-all duration-300 hover:-translate-y-3 bg-white shadow-lg focus:outline-none focus:ring-4 focus:ring-green-300"
+      aria-label={`اقرأ المزيد عن ${title}`}
+    >
+      <div className="relative w-full h-[392px]">
+        <Image
+          src={imgSrc}
+          fill
+          className="object-contain"
+          alt={title}
+          loading="lazy"
+        />
+      </div>
+      <div className="bg-white shadow-lg p-6 text-center border-t-2 border-gray-600">
+        <h3 className="text-[#0AAD0A] text-[28px] md:text-[30px] font-bold my-4">
+          {title}
+        </h3>
+        <p className="text-gray-600 text-[14px] md:text-[16px] font-bold">
+          {description}
+        </p>
+      </div>
+    </Link>
+  );
+}

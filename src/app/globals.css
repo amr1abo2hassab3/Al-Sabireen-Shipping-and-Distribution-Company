@@ -1,26 +1,91 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
 }
+
+html {
+    direction: rtl;
+}
+
+.bg-main-color {
+    background-color: #0AAD0A;
+}
+
+.text-main-color {
+    color: #0AAD0A;
+}
+
+.bg-second-color {
+    background-color: #C7D5F1;
+}
+
+.text-second-color {
+    color: #C7D5F1;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slick-dots li button:before {
+    font-size: 16px !important;
+    content: "•";
+    color: transparent !important;
+    border: 2px solid white !important;
+    border-radius: 50%;
+    width: 16px !important;
+    height: 16px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: white !important;
+    border-radius: 50%;
+    width: 16px !important;
+    height: 16px !important;
+    content: "" !important;
+}
+
+.linklist:hover.box {
+    opacity:1;
+    display: block;
+}
+
+/* .box {
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+    width: 210px;
+    position: absolute;
+    width: 210px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 16px 0;
+    z-index: 9;
+    padding: 15px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    display:none;
+    opacity:0 ;
+}
+
+
+
+.box li {
+    font-weight: bold;
+    padding: 5px;
+    color: #0aad0a92;
+    transition: all 0.3s ease;
+}
+
+.box li:hover {
+    color: #0AAD0A;
+} */
