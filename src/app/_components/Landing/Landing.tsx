@@ -36,7 +36,7 @@ export default function Landing() {
     autoplaySpeed: 5000,
     fade: true,
     cssEase: "linear",
-    beforeChange: (_, next) => setCurrentSlide(next),
+    beforeChange: (_: unknown, next: number) => setCurrentSlide(next),
   };
 
   return (
