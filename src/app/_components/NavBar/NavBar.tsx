@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -38,7 +37,13 @@ const socialLinks = [
   },
 ];
 
-const NavItem = ({ href, children }) => {
+// تحديد النوع لـ href و children
+interface NavItemProps {
+  href: string;
+  children: React.ReactNode; // يمكن أن يكون نصًا أو مكونات
+}
+
+const NavItem: React.FC<NavItemProps> = ({ href, children }) => {
   const pathname = usePathname();
   const isActive = pathname === href || pathname.startsWith(href);
   return (
@@ -55,7 +60,11 @@ const NavItem = ({ href, children }) => {
   );
 };
 
-const renderDropdown = (title, href, items) => (
+const renderDropdown = (
+  title: string,
+  href: string,
+  items: { name: string; link: string }[]
+) => (
   <li className="border-r border-black/20 relative group">
     <Link
       href={href}
@@ -83,7 +92,7 @@ const renderDropdown = (title, href, items) => (
   </li>
 );
 
-export default function NavBar() {
+const NavBar: React.FC = () => {
   return (
     <nav
       className="container mx-auto md:flex hidden items-center bg-white rounded shadow-md"
@@ -128,4 +137,6 @@ export default function NavBar() {
       </div>
     </nav>
   );
-}
+};
+
+export default NavBar;
