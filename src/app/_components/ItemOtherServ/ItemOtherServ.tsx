@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 interface ItemOtherServProps {
-  imgSrc: string;
+  imgSrc: StaticImageData;
   title: string;
 }
 
