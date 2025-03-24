@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -9,6 +9,9 @@ const services = [
   { name: "نقل الأثاث في الدمام", link: "/services/dammam" },
   { name: "نقل الأثاث في مكة", link: "/services/makkah" },
   { name: "نقل الأثاث في المدينة المنورة", link: "/services/madinah" },
+  { name: "نقل الأثاث في حائل", link: "/services/hail" },
+  { name: "نقل الأثاث في القصيم", link: "/services/qassim" },
+  { name: "نقل الأثاث في حفر الباطن", link: "/services/hafaralbatin" },
 ];
 
 const articles = [
@@ -19,7 +22,7 @@ const articles = [
 
 const socialLinks = [
   {
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/profile.php?id=61574132114409",
     icon: "fa-facebook-f",
     title: "فيسبوك",
     type: "brands",
@@ -127,7 +130,7 @@ const NavBar: React.FC = () => {
             href={social.href}
             title={`زيارة صفحتنا على ${social.title}`}
             target="_blank"
-            className="w-12 h-12 flex items-center justify-center bg-[#0AAD0A] text-white rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-[#088908]"
+            className="w-12 h-12 flex items-center justify-center bg-[#7baf3c] text-white rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-[#088908]"
           >
             <i
               className={`fa-${social.type} ${social.icon} text-2xl`}

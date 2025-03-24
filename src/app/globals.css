@@ -11,11 +11,11 @@ html {
 }
 
 .bg-main-color {
-    background-color: #0AAD0A;
+    background-color: #7baf3c;
 }
 
 .text-main-color {
-    color: #0AAD0A;
+    color: #7baf3c;
 }
 
 .bg-second-color {
@@ -55,37 +55,3 @@ html {
     height: 16px !important;
     content: "" !important;
 }
-
-.linklist:hover.box {
-    opacity:1;
-    display: block;
-}
-
-/* .box {
-    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    width: 210px;
-    position: absolute;
-    width: 210px;
-    background: #fff;
-    border-radius: 4px;
-    padding: 16px 0;
-    z-index: 9;
-    padding: 15px;
-    transition: all 0.3s ease;
-    overflow: hidden;
-    display:none;
-    opacity:0 ;
-}
-
-
-
-.box li {
-    font-weight: bold;
-    padding: 5px;
-    color: #0aad0a92;
-    transition: all 0.3s ease;
-}
-
-.box li:hover {
-    color: #0AAD0A;
-} */

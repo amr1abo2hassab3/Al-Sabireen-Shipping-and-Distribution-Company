@@ -12,13 +12,13 @@ export default function CardOffer({ city, description }: PropsCardOffer) {
                  transition-all duration-300 hover:bg-[#212121] group"
     >
       <span
-        className="w-[40px] h-[40px] ml-3 bg-[#0AAD0A] flex items-center 
+        className="w-[40px] h-[40px] ml-3 bg-[#7baf3c] flex items-center 
                    justify-center rounded transition-all duration-300 
                    hover:bg-white group-hover:bg-white"
       >
         <i
           className="fa-solid fa-check text-[23px] font-bold text-white 
-                     transition-all duration-300 group-hover:text-[#0AAD0A] hover:text-[#0AAD0A]"
+                     transition-all duration-300 group-hover:text-[#7baf3c] hover:text-[#7baf3c]"
         ></i>
       </span>
       <div className="text-gray-700 font-bold transition-all duration-300 group-hover:text-white">

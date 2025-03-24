@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
-import imgSection from "../../../assets/images/serv1.jpg";
+import imgSection from "../../../assets/images/شحن الدمام.jpg";
 const serviceSections = [
   {
     title: "نقل الأثاث داخل الدمام",

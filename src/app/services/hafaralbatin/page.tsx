@@ -1,18 +1,18 @@
-import React from "react";
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
-import imgSection from "../../../assets/images/شحن المدينه المنوره .jpg";
+import React from "react";
+import imgSection from "../../../assets/images/شحن حفر الباطن.jpg";
 
 const serviceSections = [
   {
-    title: "نقل الأثاث داخل المدينة المنورة",
+    title: "نقل الأثاث داخل حفر الباطن",
     description:
-      "توفر شركة الصابرين خدمات نقل الأثاث داخل المدينة المنورة بأعلى معايير الجودة. نضمن لك تجربة نقل سلسة وآمنة مع استخدام أحدث وسائل التغليف والحماية.",
-    link: "/services/medina",
+      "توفر شركة الصابرين خدمات نقل الأثاث داخل حفر الباطن بأعلى معايير الجودة. نضمن لك تجربة نقل سلسة وآمنة مع استخدام أحدث وسائل التغليف والحماية.",
+    link: "/services/hafar-al-batin",
   },
   {
-    title: "نقل الأثاث خارج المدينة المنورة",
+    title: "نقل الأثاث خارج حفر الباطن",
     description:
-      "نقدم خدمات نقل العفش خارج المدينة المنورة إلى جميع المدن السعودية، مع توفير سيارات مجهزة لحماية الأثاث أثناء النقل لمسافات طويلة.",
+      "نقدم خدمات نقل العفش خارج حفر الباطن إلى جميع المدن السعودية، مع توفير سيارات مجهزة لحماية الأثاث أثناء النقل لمسافات طويلة.",
     link: "/services",
   },
   {
@@ -53,12 +53,12 @@ const serviceSections = [
   },
 ];
 
-export default function Madinah() {
+export default function HafarAlBatin() {
   return (
     <div>
       <ServicesPages
         ImgSection={imgSection}
-        city="المدينة المنورة"
+        city="حفر الباطن"
         serviceSections={serviceSections}
       />
     </div>

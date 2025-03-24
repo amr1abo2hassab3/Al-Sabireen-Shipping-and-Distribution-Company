@@ -1,18 +1,18 @@
-import React from "react";
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
-import imgSection from "../../../assets/images/شحن المدينه المنوره .jpg";
+import React from "react";
+import imgSection from "../../../assets/images/شحن حائل.jpg";
 
 const serviceSections = [
   {
-    title: "نقل الأثاث داخل المدينة المنورة",
+    title: "نقل الأثاث داخل حائل",
     description:
-      "توفر شركة الصابرين خدمات نقل الأثاث داخل المدينة المنورة بأعلى معايير الجودة. نضمن لك تجربة نقل سلسة وآمنة مع استخدام أحدث وسائل التغليف والحماية.",
-    link: "/services/medina",
+      "توفر شركة الصابرين خدمات نقل الأثاث داخل حائل بأعلى معايير الجودة. نضمن لك تجربة نقل سلسة وآمنة مع استخدام أحدث وسائل التغليف والحماية.",
+    link: "/services/hail",
   },
   {
-    title: "نقل الأثاث خارج المدينة المنورة",
+    title: "نقل الأثاث خارج حائل",
     description:
-      "نقدم خدمات نقل العفش خارج المدينة المنورة إلى جميع المدن السعودية، مع توفير سيارات مجهزة لحماية الأثاث أثناء النقل لمسافات طويلة.",
+      "نقدم خدمات نقل العفش خارج حائل إلى جميع المدن السعودية، مع توفير سيارات مجهزة لحماية الأثاث أثناء النقل لمسافات طويلة.",
     link: "/services",
   },
   {
@@ -53,12 +53,12 @@ const serviceSections = [
   },
 ];
 
-export default function Madinah() {
+export default function Hail() {
   return (
     <div>
       <ServicesPages
         ImgSection={imgSection}
-        city="المدينة المنورة"
+        city="حائل"
         serviceSections={serviceSections}
       />
     </div>

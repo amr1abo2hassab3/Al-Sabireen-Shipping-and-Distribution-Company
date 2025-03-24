@@ -10,6 +10,9 @@ const services = [
   { name: "نقل الأثاث في الدمام", link: "/services/dammam" },
   { name: "نقل الأثاث في مكة", link: "/services/makkah" },
   { name: "نقل الأثاث في المدينة المنورة", link: "/services/madinah" },
+  { name: "نقل الأثاث في حائل", link: "/services/hail" },
+  { name: "نقل الأثاث في القصيم", link: "/services/qassim" },
+  { name: "نقل الأثاث في حفر الباطن", link: "/services/hafaralbatin" },
 ];
 
 const articles = [
@@ -20,7 +23,7 @@ const articles = [
 
 const socialLinks = [
   {
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/profile.php?id=61574132114409",
     icon: "fa-facebook-f",
     title: "فيسبوك",
     type: "brands",
@@ -54,7 +57,7 @@ export default function ContentHeader() {
           width={120}
           height={120}
           className="rounded-full"
-          priority
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <div className="w-[70%] hidden md:flex flex-col items-end justify-center gap-2">
@@ -72,17 +75,17 @@ export default function ContentHeader() {
 
         {/* أيقونة البريد الإلكتروني + العنوان */}
         <a
-          href="mailto:support@example.com"
+          href="mailto:alsabreentransports@gmail.com"
           target="_blank"
           className="flex items-center gap-2 text-[#dadada] text-sm hover:text-blue-400 transition duration-300"
         >
           <i className="fa-solid fa-envelope text-white text-[30px] transition-all duration-300 hover:scale-110 hover:text-blue-400"></i>
-          support@example.com
+          alsabreentransports@gmail.com
         </a>
       </div>
       {/* زر القائمة (للجوال) */}
       <div
-        className="md:hidden text-[20px] flex items-center justify-center text-[#0AAD0A] w-11 h-11 bg-white rounded-md shadow-md cursor-pointer hover:bg-gray-100 transition"
+        className="md:hidden text-[20px] flex items-center justify-center text-[#7baf3c] w-11 h-11 bg-white rounded-md shadow-md cursor-pointer hover:bg-gray-100 transition"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <i className="fa-solid fa-list"></i>
@@ -125,7 +128,9 @@ export default function ContentHeader() {
             </button>
             <ul
               className={`bg-gray-700 mt-3 w-full border border-gray-600 rounded-lg shadow-md overflow-hidden transition-all duration-300 ease-in-out ${
-                isServicesOpen ? "max-h-60 opacity-100" : "max-h-0 opacity-0"
+                isServicesOpen
+                  ? "max-h-[450px] opacity-100"
+                  : "max-h-0 opacity-0"
               }`}
             >
               {services.map((service) => (
@@ -191,7 +196,7 @@ export default function ContentHeader() {
                 href={social.href}
                 title={`زيارة صفحتنا على ${social.title}`}
                 target="_blank"
-                className="w-12 h-12 flex items-center justify-center bg-[#0AAD0A] text-white rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-[#088908]"
+                className="w-12 h-12 flex items-center justify-center bg-[#7baf3c] text-white rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-1 hover:bg-[#7baf3c]"
               >
                 <i
                   className={`fa-${social.type} ${social.icon} text-2xl`}
