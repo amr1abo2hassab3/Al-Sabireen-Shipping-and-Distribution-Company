@@ -16,7 +16,6 @@ const services = [
 ];
 
 const articles = [
-  { name: "تنظيف وصيانة", link: "/articles/cleaning" },
   { name: "شحن عفش داخل المملكة", link: "/articles/shipping" },
   { name: "نقل أثاث داخلي", link: "/articles/moving" },
 ];

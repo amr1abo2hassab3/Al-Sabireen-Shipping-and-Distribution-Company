@@ -2,6 +2,36 @@ import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import React from "react";
 import imgSection from "../../../assets/images/شحن حفر الباطن.jpg";
 
+export const metadata = {
+  title: "نقل الأثاث في حفر الباطن - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج حفر الباطن بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في حفر الباطن",
+    "شحن الأثاث في حفر الباطن",
+    "نقل العفش داخل حفر الباطن",
+    "نقل الشركات والمكاتب في حفر الباطن",
+    "تخزين الأثاث في حفر الباطن",
+    "فك وتركيب الأثاث في حفر الباطن",
+    "خدمات التعبئة والتغليف في حفر الباطن",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في حفر الباطن - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج حفر الباطن بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/hafar-al-batin",
+    images: [
+      {
+        url: "../../../assets/images/شحن حفر الباطن.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في حفر الباطن",
+      },
+    ],
+    type: "website",
+  },
+};
+
 const serviceSections = [
   {
     title: "نقل الأثاث داخل حفر الباطن",

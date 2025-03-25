@@ -3,11 +3,14 @@ import FooterLink from "../FooterLink/FooterLink";
 import FooterAbout from "../FooterAbout/FooterAbout";
 
 const footerLinks = [
-  { href: "/", title: "نقل الأثاث في الرياض" },
-  { href: "/jeddah", title: "نقل الأثاث في جدة" },
-  { href: "/dammam", title: "نقل الأثاث في الدمام" },
-  { href: "/mecca", title: "نقل الأثاث في مكة" },
-  { href: "/medina", title: "نقل الأثاث في المدينة المنورة" },
+  { title: "نقل الأثاث في الرياض", href: "/services/riyadh" },
+  { title: "نقل الأثاث في جدة", href: "/services/jeddah" },
+  { title: "نقل الأثاث في الدمام", href: "/services/dammam" },
+  { title: "نقل الأثاث في مكة", href: "/services/makkah" },
+  { title: "نقل الأثاث في المدينة المنورة", href: "/services/madinah" },
+  { title: "نقل الأثاث في حائل", href: "/services/hail" },
+  { title: "نقل الأثاث في القصيم", href: "/services/qassim" },
+  { title: "نقل الأثاث في حفر الباطن", href: "/services/hafaralbatin" },
 ];
 
 const contactInfo = [
@@ -27,6 +30,12 @@ const contactInfo = [
     address: "0542971661",
     icon: "fa-brands fa-whatsapp",
     link: "https://wa.me/966542971661",
+  },
+  {
+    title: "البريد الإلكتروني",
+    address: "alsabreentransports@gmail.com",
+    icon: "fa-solid fa-envelope",
+    link: "mailto:alsabreentransports@gmail.com",
   },
 ];
 export default function Footer() {

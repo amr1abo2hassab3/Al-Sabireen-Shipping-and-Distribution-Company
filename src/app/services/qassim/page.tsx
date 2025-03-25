@@ -1,6 +1,36 @@
-import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import React from "react";
+import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import imgSection from "../../../assets/images/شحن القصيم.jpg";
+
+export const metadata = {
+  title: "نقل الأثاث في القصيم - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج القصيم بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في القصيم",
+    "شحن الأثاث في القصيم",
+    "نقل العفش داخل القصيم",
+    "نقل الشركات والمكاتب في القصيم",
+    "تخزين الأثاث في القصيم",
+    "فك وتركيب الأثاث في القصيم",
+    "خدمات التعبئة والتغليف في القصيم",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في القصيم - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج القصيم بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/qassim",
+    images: [
+      {
+        url: "../../../assets/images/شحن القصيم.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في القصيم",
+      },
+    ],
+    type: "website",
+  },
+};
 
 const serviceSections = [
   {

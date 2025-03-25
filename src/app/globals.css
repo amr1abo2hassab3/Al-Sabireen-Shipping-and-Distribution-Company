@@ -55,3 +55,20 @@ html {
     height: 16px !important;
     content: "" !important;
 }
+
+
+.box {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box div {
+    width: 60px;
+    height: 60px;
+}

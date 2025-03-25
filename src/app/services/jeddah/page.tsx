@@ -1,6 +1,37 @@
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import React from "react";
 import imgSection from "../../../assets/images/شحن جده.jpg";
+
+export const metadata = {
+  title: "نقل الأثاث في جدة - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج جدة بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في جدة",
+    "شحن الأثاث في جدة",
+    "نقل العفش داخل جدة",
+    "نقل الشركات والمكاتب في جدة",
+    "تخزين الأثاث في جدة",
+    "فك وتركيب الأثاث في جدة",
+    "خدمات التعبئة والتغليف في جدة",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في جدة - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج جدة بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/jeddah",
+    images: [
+      {
+        url: "../../../assets/images/شحن جده.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في جدة",
+      },
+    ],
+    type: "website",
+  },
+};
+
 const serviceSections = [
   {
     title: "نقل الأثاث داخل جدة",

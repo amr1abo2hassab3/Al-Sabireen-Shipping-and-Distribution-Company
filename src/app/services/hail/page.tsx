@@ -2,6 +2,36 @@ import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import React from "react";
 import imgSection from "../../../assets/images/شحن حائل.jpg";
 
+export const metadata = {
+  title: "نقل الأثاث في حائل - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج حائل بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في حائل",
+    "شحن الأثاث في حائل",
+    "نقل العفش داخل حائل",
+    "نقل الشركات والمكاتب في حائل",
+    "تخزين الأثاث في حائل",
+    "فك وتركيب الأثاث في حائل",
+    "خدمات التعبئة والتغليف في حائل",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في حائل - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج حائل بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/hail",
+    images: [
+      {
+        url: "../../../assets/images/شحن حائل.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في حائل",
+      },
+    ],
+    type: "website",
+  },
+};
+
 const serviceSections = [
   {
     title: "نقل الأثاث داخل حائل",

@@ -1,6 +1,42 @@
 import ArticlesPages from "@/app/_components/ArticlesPages/ArticlesPages";
 import React from "react";
 
+export const metadata = {
+  title: "شركة الصابرين | شحن العفش داخل المملكة",
+  description:
+    "شركة الصابرين تقدم خدمات شحن العفش داخل المملكة بأفضل الأسعار، مع تغليف احترافي ونقل آمن لجميع المدن.",
+  keywords: [
+    "نقل عفش",
+    "شحن عفش",
+    "خدمات شحن الأثاث",
+    "شركة الصابرين",
+    "نقل الأثاث",
+    "شحن الأثاث داخل المملكة",
+  ],
+  openGraph: {
+    title: "شركة الصابرين | خدمات شحن العفش داخل المملكة",
+    description:
+      "نقل عفش بأمان وسرعة داخل المملكة بأسعار تنافسية. تغطية شاملة لجميع المدن.",
+    url: "https://your-website.com/shipping",
+    images: [
+      {
+        url: "../../../assets/images/photo_2025-03-21_02-51-37.jpg",
+        width: 1200,
+        height: 630,
+        alt: "خدمات شحن العفش - شركة الصابرين",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "شركة الصابرين | خدمات شحن العفش داخل المملكة",
+    description:
+      "نقل عفش بأمان وسرعة داخل المملكة بأسعار تنافسية. تغطية شاملة لجميع المدن.",
+    images: ["../../../assets/images/photo_2025-03-21_02-51-37.jpg"],
+  },
+};
+
 const articlsPage: {
   title: string;
   text: string;
@@ -46,13 +82,8 @@ const articlsPage: {
     text: "نعمل على مدار الساعة لضمان راحة عملائنا وتقديم الخدمات في الأوقات التي تناسبهم.",
   },
 ];
-const HeadingPage:string = "خدمات شحن العفش داخل المملكة" ;
-
+const HeadingPage: string = "خدمات شحن العفش داخل المملكة";
 
 export default function Shipping() {
-  return (
-    <div>
-      <ArticlesPages articlsPage={articlsPage} HeadingPage={HeadingPage} />
-    </div>
-  );
+  return <ArticlesPages articlsPage={articlsPage} HeadingPage={HeadingPage} />;
 }

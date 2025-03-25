@@ -3,7 +3,7 @@ import AsideAricle from "../AsideAricle/AsideAricle";
 import imgRiyadh from "../../../assets/images/شحنالرياض.jpg";
 import imgJeddah from "../../../assets/images/شحن جده.jpg";
 import imgDammam from "../../../assets/images/شحن الدمام.jpg";
-import imgMakkah from "../../../assets/images/serv1.jpg";
+import imgMakkah from "../../../assets/images/شحن مكه.jpg";
 import imgMadinah from "../../../assets/images/شحن المدينه المنوره .jpg";
 import imgHail from "../../../assets/images/شحن حائل.jpg";
 import imgQassim from "../../../assets/images/شحن القصيم.jpg";
@@ -79,8 +79,9 @@ export default function ArticlesPages({
                     src={location.image}
                     alt={location.name}
                     width={300}
-                    height={210}
-                    className="object-cover"
+                    height={200}
+                    style={{ width: "auto", height: "auto" }}
+                    className="custom-image"
                   />
 
                   <div className="absolute bg-white w-full h-full top-0 left-0 flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-80">

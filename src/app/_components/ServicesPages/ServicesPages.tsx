@@ -55,6 +55,7 @@ const ServicesPages: React.FC<ServicesPagesProps> = ({
           className="object-contain"
           alt={`شركة الصابرين لنقل الأثاث داخل وخارج ${city}`}
           loading="lazy"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       {/* الأقسام المختلفة */}

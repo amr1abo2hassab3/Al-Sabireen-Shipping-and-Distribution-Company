@@ -1,6 +1,36 @@
 import ArticlesPages from "@/app/_components/ArticlesPages/ArticlesPages";
 import React from "react";
 
+export const metadata = {
+  title: "خدمات نقل الأثاث الداخلي - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم أفضل خدمات نقل الأثاث داخل السعودية، مع توفير حلول متكاملة للتعبئة، التغليف، والتخزين بأفضل الأسعار.",
+  keywords: [
+    "نقل الأثاث الداخلي",
+    "شحن الأثاث داخل السعودية",
+    "نقل العفش",
+    "شركة نقل أثاث",
+    "خدمات التعبئة والتغليف",
+    "تخزين الأثاث",
+    "نقل الشركات والمكاتب",
+  ],
+  openGraph: {
+    title: " نقل الأثاث الداخلي - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم أفضل خدمات نقل الأثاث داخل السعودية، مع توفير حلول متكاملة للتعبئة، التغليف، والتخزين بأفضل الأسعار.",
+    url: "../../../assets/images/photo_2025-03-21_02-51-37.jpg",
+    images: [
+      {
+        url: "../../../assets/images/photo_2025-03-21_02-51-37.jpg",
+        width: 1200,
+        height: 630,
+        alt: "خدمات نقل الأثاث الداخلي",
+      },
+    ],
+    type: "website",
+  },
+};
+
 const articlsPage: { title: string; text: string }[] = [
   {
     title: "خدمات نقل الأثاث بسرعة وأمان",
@@ -43,8 +73,8 @@ const articlsPage: { title: string; text: string }[] = [
     text: "نعمل على مدار الساعة لضمان راحة عملائنا وتقديم الخدمات في الأوقات التي تناسبهم.",
   },
 ];
-const HeadingPage: string = " خدمات نقل أثاث داخلي "; 
 
+const HeadingPage: string = "خدمات نقل أثاث داخلي";
 
 export default function Moving() {
   return (

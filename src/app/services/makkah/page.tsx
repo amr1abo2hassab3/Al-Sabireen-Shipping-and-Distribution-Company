@@ -1,6 +1,36 @@
 import React from "react";
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
-import imgSection from "../../../assets/images/serv1.jpg";
+import imgSection from "../../../assets/images/شحن مكه.jpg";
+
+export const metadata = {
+  title: "نقل الأثاث في مكة - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج مكة بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في مكة",
+    "شحن الأثاث في مكة",
+    "نقل العفش داخل مكة",
+    "نقل الشركات والمكاتب في مكة",
+    "تخزين الأثاث في مكة",
+    "فك وتركيب الأثاث في مكة",
+    "خدمات التعبئة والتغليف في مكة",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في مكة - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج مكة بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/makkah",
+    images: [
+      {
+        url: "../../../assets/images/شحن مكه.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في مكة",
+      },
+    ],
+    type: "website",
+  },
+};
 
 const serviceSections = [
   {

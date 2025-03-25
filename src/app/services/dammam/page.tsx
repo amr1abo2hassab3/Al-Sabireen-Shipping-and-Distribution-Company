@@ -1,6 +1,37 @@
 import React from "react";
 import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import imgSection from "../../../assets/images/شحن الدمام.jpg";
+
+export const metadata = {
+  title: "نقل الأثاث في الدمام - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج الدمام بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في الدمام",
+    "شحن الأثاث في الدمام",
+    "نقل العفش داخل الدمام",
+    "نقل الشركات والمكاتب في الدمام",
+    "تخزين الأثاث في الدمام",
+    "فك وتركيب الأثاث في الدمام",
+    "خدمات التعبئة والتغليف في الدمام",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في الدمام - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج الدمام بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/dammam",
+    images: [
+      {
+        url: "../../../assets/images/شحن الدمام.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في الدمام",
+      },
+    ],
+    type: "website",
+  },
+};
+
 const serviceSections = [
   {
     title: "نقل الأثاث داخل الدمام",

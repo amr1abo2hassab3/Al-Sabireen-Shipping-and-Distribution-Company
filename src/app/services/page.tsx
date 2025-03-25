@@ -4,11 +4,49 @@ import CardServ from "../_components/CardServ/CardServ";
 import img1 from "../../assets/images/شحنالرياض.jpg";
 import img2 from "../../assets/images/شحن جده.jpg";
 import img3 from "../../assets/images/شحن الدمام.jpg";
-import img4 from "../../assets/images/serv1.jpg";
+import img4 from "../../assets/images/شحن مكه.jpg";
 import img5 from "../../assets/images/شحن حفر الباطن.jpg";
 import img6 from "../../assets/images/شحن حائل.jpg";
 import img7 from "../../assets/images/شحن المدينه المنوره .jpg";
 import img8 from "../../assets/images/شحن القصيم.jpg";
+
+export const metadata = {
+  title: "خدمات نقل الأثاث - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم أفضل خدمات نقل الأثاث داخل السعودية، مع توفير حلول متكاملة للتعبئة، التغليف، والتخزين بأفضل الأسعار.",
+  keywords: [
+    "نقل الأثاث في السعودية",
+    "شحن الأثاث",
+    "نقل العفش",
+    "شركة نقل أثاث",
+    "خدمات التعبئة والتغليف",
+    "تخزين الأثاث",
+    "نقل الشركات والمكاتب",
+    "نقل الأثاث في الرياض",
+    "نقل الأثاث في جدة",
+    "نقل الأثاث في الدمام",
+    "نقل الأثاث في مكة",
+    "نقل الأثاث في المدينة المنورة",
+    "نقل الأثاث في حائل",
+    "نقل الأثاث في القصيم",
+    "نقل الأثاث في حفر الباطن",
+  ],
+  openGraph: {
+    title: "خدمات نقل الأثاث - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم أفضل خدمات نقل الأثاث داخل السعودية، مع توفير حلول متكاملة للتعبئة، التغليف، والتخزين بأفضل الأسعار.",
+    url: "https://al-sabreentransport.com/services",
+    images: [
+      {
+        url: "../../assets/images/serv1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "خدمات نقل الأثاث",
+      },
+    ],
+    type: "website",
+  },
+};
 
 const services = [
   {
@@ -32,7 +70,6 @@ const services = [
       "أفضل خدمات نقل الأثاث في الدمام بأسعار تنافسية ونقل سريع وآمن لكافة أنواع البضائع.",
     link: "/services/dammam",
   },
-
   {
     imgSrc: img7,
     title: "نقل الأثاث في المدينة المنورة",
@@ -74,7 +111,7 @@ export default function Services() {
     <div className="mt-[350px] mb-[50px] container mx-auto">
       <HeaderSection
         title="خدماتنا في شركة الصابرين للنقل والخدمات المنزلية"
-        subtitle="خدماتنا المتنوعة في شركة الصابرين للنقل والخدمات المنزلية نقدمها لك بإبداع وإتقان وجودة وتنافسية في سرعة التنفيد ومهارة المختصين. وبأسعار تنافسية لا مثيل لها."
+        subtitle="خدماتنا المتنوعة في شركة الصابرين للنقل والخدمات المنزلية نقدمها لك بإبداع وإتقان وجودة وتنافسية في سرعة التنفيذ ومهارة المختصين. وبأسعار تنافسية لا مثيل لها."
         link="/services"
       />
 

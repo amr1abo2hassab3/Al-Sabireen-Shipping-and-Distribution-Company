@@ -1,6 +1,36 @@
-import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import React from "react";
+import ServicesPages from "@/app/_components/ServicesPages/ServicesPages";
 import imgSection from "../../../assets/images/شحنالرياض.jpg";
+
+export const metadata = {
+  title: "نقل الأثاث في الرياض - شركة الصابرين",
+  description:
+    "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج الرياض بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+  keywords: [
+    "نقل الأثاث في الرياض",
+    "شحن الأثاث في الرياض",
+    "نقل العفش داخل الرياض",
+    "نقل الشركات والمكاتب في الرياض",
+    "تخزين الأثاث في الرياض",
+    "فك وتركيب الأثاث في الرياض",
+    "خدمات التعبئة والتغليف في الرياض",
+  ],
+  openGraph: {
+    title: "نقل الأثاث في الرياض - شركة الصابرين",
+    description:
+      "شركة الصابرين تقدم خدمات نقل الأثاث داخل وخارج الرياض بأعلى معايير الجودة، مع توفير حلول شحن، تخزين، وتغليف متميزة.",
+    url: "https://al-sabreentransport.com/services/riyadh",
+    images: [
+      {
+        url: "../../../assets/images/شحنالرياض.jpg",
+        width: 1200,
+        height: 630,
+        alt: "نقل الأثاث في الرياض",
+      },
+    ],
+    type: "website",
+  },
+};
 
 const serviceSections = [
   {

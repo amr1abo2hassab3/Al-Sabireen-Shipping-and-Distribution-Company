@@ -23,10 +23,11 @@ export default function CardServ({
       <div className="relative w-full h-[392px]">
         <Image
           src={imgSrc}
+          loading="lazy"
+          alt={title}
           fill
           className="object-contain"
-          alt={title}
-          loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <div className="bg-white shadow-lg p-6 text-center border-t-2 border-gray-600">
